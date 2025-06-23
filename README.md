@@ -22,10 +22,15 @@ Before you begin, make sure you have these tools installed:
 
 1. Clone the repository
 2. Download the following VSCode extensions:
-    - Luau Language Server (settings > "Luau-Isp > Completion > Imports:Enabled" > click checkbox to turn ON)
-    - Rojo Roblox Studio Sync
-    - Selene
-    - StyLua
+    - **Luau Language Server** (settings > "Luau-Isp > Completion > Imports:Enabled" > click checkbox to turn ON)
+    - **Rojo Roblox Studio Sync**
+    - **Selene**
+    - **StyLua**
 3. Run the following commands in the terminal:
-`wally install
-rokit run rojo serve`
+`wally install`
+`rokit run rojo serve`
+4. Open Roblox Studio
+5. Click "Connect" under Rojo (bottom right corner)
+
+## Starting Project After Setup
+Run command `rojo serve` in terminal & connect to rojo in Roblox Studio -> any updates in VSCode will automatically appear in Roblox Studio
