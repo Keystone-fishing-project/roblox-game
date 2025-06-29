@@ -2,6 +2,10 @@
   "name": "roblox-game",
   "tree": {
     "$className": "DataModel",
+    "StarterPack": {
+      "$path": "StarterPack",
+      "$className": "StarterPack"
+    },
     "ReplicatedStorage": {
       "Shared": {
         "$path": "src/shared"

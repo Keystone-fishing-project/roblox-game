@@ -1,0 +1,8 @@
+{
+    "className": "Tool",
+    "OnStart": {
+        "Parent": "Starter",
+        "className": "BoolValue",
+        "Value": true
+    }
+}
